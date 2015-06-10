@@ -13,7 +13,14 @@ class TranslationTwigExtension extends Twig_Extension
 
 		$yaml = new Parser();
 		
-		$this->trans = $yaml->parse(file_get_contents($dir.'/'.$lang.'.yml'));
+		$filename = $dir.'/'.$lang.'.yml';
+
+		if (file_exists($filename)) {
+			$this->trans = $yaml->parse(file_get_contents($filename));
+		} else {
+			$this->trans = array();
+		}
+		
 	}
 
 	public function getFilters()
