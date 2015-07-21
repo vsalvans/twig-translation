@@ -1,6 +1,6 @@
 <?php
 
-require_once 'vendor/autoload.php';
+require_once '../vendor/autoload.php';
 
 Twig_Autoloader::register();
 
@@ -12,6 +12,6 @@ $twig = new Twig_Environment($loader, array(
     'cache' => null,
 ));
 
-$twig->addExtension(new TranslationTwigExtension($lang, __DIR__.'/locale'));
+$twig->addExtension(new TranslationTwigExtension($lang, __DIR__.'/locale', 'ca', __DIR__.'/translation.log'));
 
 echo $twig->render('index.html');

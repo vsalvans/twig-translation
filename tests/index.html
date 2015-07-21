@@ -7,8 +7,11 @@
     <link rel="stylesheet" href="">
 </head>
 <body>
+<h1>Spanish translation with catalan fallback:</h1>
 <h1>{{ "Hello" | trans }}</h1>
 {{ "<a href=\"#\">English</a>" | trans | raw }}
 <p>{{ "Your name is @name" | trans({"@name" : "víctor"}) }}</p> 
+<p>{{ "There is no translation in spanish" | trans }}</p>
+<p>{{ "There is no translation at all" | trans }}</p>
 </body>
 </html>
