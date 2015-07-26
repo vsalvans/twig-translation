@@ -6,22 +6,22 @@
         "source": {
             "type": "git",
             "url": "https://github.com/twigphp/Twig.git",
-            "reference": "d63ac2088e8d30137cde10f310ab89b06dab916b"
+            "reference": "1ded65daeb8da1fb0d22016e53c2e7026557f040"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/twigphp/Twig/zipball/d63ac2088e8d30137cde10f310ab89b06dab916b",
-            "reference": "d63ac2088e8d30137cde10f310ab89b06dab916b",
+            "url": "https://api.github.com/repos/twigphp/Twig/zipball/1ded65daeb8da1fb0d22016e53c2e7026557f040",
+            "reference": "1ded65daeb8da1fb0d22016e53c2e7026557f040",
             "shasum": ""
         },
         "require": {
             "php": ">=5.2.7"
         },
-        "time": "2015-05-16 14:17:41",
+        "time": "2015-07-05 08:50:23",
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-master": "1.18-dev"
+                "dev-master": "1.19-dev"
             }
         },
         "installation-source": "source",
@@ -65,12 +65,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/Yaml.git",
-            "reference": "2396832f6f9ab2b8f62f00b5d3f2e722fc773d65"
+            "reference": "000e7fc2653335cd42c6d21405dac1c74224a387"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/Yaml/zipball/2396832f6f9ab2b8f62f00b5d3f2e722fc773d65",
-            "reference": "2396832f6f9ab2b8f62f00b5d3f2e722fc773d65",
+            "url": "https://api.github.com/repos/symfony/Yaml/zipball/000e7fc2653335cd42c6d21405dac1c74224a387",
+            "reference": "000e7fc2653335cd42c6d21405dac1c74224a387",
             "shasum": ""
         },
         "require": {
@@ -79,7 +79,7 @@
         "require-dev": {
             "symfony/phpunit-bridge": "~2.7|~3.0.0"
         },
-        "time": "2015-05-12 15:16:46",
+        "time": "2015-07-01 14:16:54",
         "type": "library",
         "extra": {
             "branch-alias": {

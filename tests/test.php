@@ -4,7 +4,7 @@ require_once '../vendor/autoload.php';
 
 Twig_Autoloader::register();
 
-$lang = 'es';
+$lang = 'he';
 
 $loader = new Twig_Loader_Filesystem(__DIR__);
 
