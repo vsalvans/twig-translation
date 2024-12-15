@@ -36,3 +36,5 @@ You can add debug log file. It add a new entry for each translation failed
 Then in the terminal you can list all strings without translation buy typing:
     
     $ cat log_file | sort -u
+# Alert!!
+This project has been archived because is old and has vulnerabilities
